@@ -1,0 +1,6 @@
+script {
+use 0x8ebfb57d01979eb7714899d223bd9d36::Test;
+fun main(account: signer) {
+    Test::publish(&account)
+}
+}
